@@ -9,13 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    // As propriedades obrigatoriamente precisam ter o valor inicial declarado,
+    // para evitar isso, podemos usar ! no final
+    // implicitly unwrapped optional
+    
+    @IBOutlet var nameField:UITextField!
+    @IBOutlet var happinessField:UITextField!
+    
     @IBAction func add() {
-        var name:String = "food name"
-        var happiness:String = "5"
+        var name = nameField.text
+        var happiness = happinessField.text
         
         print("eaten: \(name) \(happiness)")
     }
-
+    
 }
 
