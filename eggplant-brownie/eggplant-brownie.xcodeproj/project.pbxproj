@@ -34,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C1BBA791F486E3D00BB8002 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		7C1BBA7A1F487DDE00BB8002 /* MyClassPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyClassPlayground.playground; sourceTree = "<group>"; };
 		7CA6D9E61F43BEAB00C24F77 /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA6D9E91F43BEAB00C24F77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CA6D9EB1F43BEAB00C24F77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,11 +100,13 @@
 			isa = PBXGroup;
 			children = (
 				7CA6D9E91F43BEAB00C24F77 /* AppDelegate.swift */,
+				7C1BBA791F486E3D00BB8002 /* MyPlayground.playground */,
 				7CA6D9EB1F43BEAB00C24F77 /* ViewController.swift */,
 				7CA6D9ED1F43BEAB00C24F77 /* Main.storyboard */,
 				7CA6D9F01F43BEAB00C24F77 /* Assets.xcassets */,
 				7CA6D9F21F43BEAB00C24F77 /* LaunchScreen.storyboard */,
 				7CA6D9F51F43BEAB00C24F77 /* Info.plist */,
+				7C1BBA7A1F487DDE00BB8002 /* MyClassPlayground.playground */,
 			);
 			path = "eggplant-brownie";
 			sourceTree = "<group>";
@@ -505,6 +509,7 @@
 				7CA6DA101F43BEAB00C24F77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CA6DA111F43BEAB00C24F77 /* Build configuration list for PBXNativeTarget "eggplant-brownieTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				7CA6DA131F43BEAB00C24F77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CA6DA141F43BEAB00C24F77 /* Build configuration list for PBXNativeTarget "eggplant-brownieUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				7CA6DA161F43BEAB00C24F77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
